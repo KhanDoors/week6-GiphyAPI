@@ -3,9 +3,9 @@ $( document ).ready(function() {
 
   // Api Key: ohNxjejREZLWwWntXkyjW9nhbEAU4kuI
 
+var heros = ["batman", "superman", "ironman", "hulk", "thor", "wolverine", "spiderman", "flash", "wwoman", "cyborg"]
 
-
-  function giphyProject() {
+  function displayGifButtons() {
 
     // Querying the bandsintown api for the selected artist, the ?app_id parameter is required, but can equal anything
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search +
